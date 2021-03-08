@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
     fun getInfo(view: View) {
         val userName : String = textName.text.toString();
         val countryName = call(userName);
-        Toast.makeText(this,"User: $userName  Country: $countryName",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"User: $userName  userCountry: $countryName",Toast.LENGTH_LONG).show();
     }
 
     fun call(userName: String):String{
